@@ -1,0 +1,88 @@
+/*********Base Style*********/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Times New Roman",Arial;
+	box-sizing: border-box;
+}
+
+/**********Large Devices***********/
+
+@media (min-width: 992px) 
+{
+	#sec1,#sec2,#sec3
+	{
+		width:31%;
+	}
+}
+
+/********************** Medium devices only *************/
+@media(min-width: 768px) and (max-width: 991px)
+{
+	#sec1,#sec2
+	{
+		width:46%;
+	}
+	#sec3
+	{
+		width:94%;
+	}
+}
+
+/******************* mobile ********************/
+@media(max-width: 767px)
+{
+   #sec1,#sec2,#sec3
+	{
+		width:95%;
+	}
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+body{
+	background-color: #F9C7BC;
+}
+div{
+	padding: 10px;
+	position: absolute;
+}
+#ps1,#ps2,#ps3{
+	width: 40%;
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	left: 60%;
+}
+#p1,#p2,#p3{
+	padding: 10px;
+}
+
+#sec1,#sec2,#sec3{
+	float: left;
+	border: 3px solid black;
+	margin: 10px;
+	font-size: 16px;
+	background-color: #A5F9BD;
+}
+#ps1{
+	background-color: #FB7262;
+}
+#ps2{
+	background-color: #8793FA;
+}
+#ps3{
+	background-color: #A8A8A5;
+}
+div{
+	clear:left;
+}
+
