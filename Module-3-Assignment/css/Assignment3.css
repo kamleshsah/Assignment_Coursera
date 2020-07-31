@@ -1,0 +1,107 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(247, 230, 230);
+}
+
+
+/** HEADER **/
+.navbar{
+    background-color: #283e4a;
+}
+.navbar-brand{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+.nav-link{
+    text-align: center;
+    
+}
+.menu1{
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+/** END HEADER */
+
+#heading{
+    margin-top: 15px;
+    text-align: center;
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lora', serif; 
+}
+
+/*********** Phone ************/
+@media(max-width:767.98px){
+    .head{
+        font-size: 30px;
+    }
+}
+/************ Phone ***********/
+
+.menu{
+    border: 1px solid rgb(128, 127, 127);
+    padding: 5px;
+    margin: 10px 2px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: rgb(247, 225, 193);
+}
+.menufield{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+#detail1{
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #A6ACAF;
+    margin-bottom: 60px;
+    
